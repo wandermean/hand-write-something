@@ -1,0 +1,17 @@
+<div id="app">
+  <input type="text" v-model="text">
+  {{text}}
+  <input type="text" v-model="text2">
+  {{text2}}
+</div>
+
+<script src="./my-vue.js"></script>
+<script>
+  let vm = new MyVue({
+    el: 'app',
+    data:{
+      text: 'my vue demo',
+      text2: 'aa'
+    }
+  })
+</script>
