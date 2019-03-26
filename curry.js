@@ -15,4 +15,4 @@ function add(x,y,z){
 }
 
 // const curry12 = curry(add,1,2);
-console.log(curry(add,1,2)(3))
+console.log(curry(add,1)(3)(3)(3))
