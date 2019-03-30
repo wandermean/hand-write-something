@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>实现三栏水平布局之双飞翼布局</title>
+    <style type="text/css">
+      .left,
+      .main,
+      .right {
+        float: left;
+        min-height: 130px;
+      }
+      .left {
+        margin-left: -100%;
+        background: #008000;
+        width: 200px;
+      }
+      .right {
+        margin-left: -300px;
+        background-color: red;
+        width: 300px;
+      }
+      .main {
+        background-color: blue;
+        width: 100%;
+      }
+      .content {
+        margin: 0 300px 0 200px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <div class="content">main</div>
+    </div>
+    <div class="left">left</div>
+    <div class="right">right</div>
+  </body>
+</html>
