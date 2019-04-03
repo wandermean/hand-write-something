@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>三角形</title>
+  <style type="text/css">
+    .box1, .box2, .box3, .box4 {
+      height: 0px;
+      width: 0px;
+      float: left;
+      border-style: solid;
+      margin: 10px;
+    }
+    .box1 { /* 等腰直角 */
+      border-width: 100px;
+      border-color: tomato transparent transparent transparent;
+    }
+    .box2 { /* 等边 */
+      border-width: 100px 173px;
+      border-color: transparent tomato transparent transparent;
+    }
+    .box3 { /* 等腰 */
+      border-width: 100px 80px;
+      border-color: transparent transparent tomato transparent;
+    }
+    .box4 { /* 其他 */
+      border-width: 100px 90px 80px 70px;
+      border-color: transparent transparent transparent tomato;
+    }
+  </style>
+</head>
+<body>
+  <div class="box1"></div>
+  <div class="box2"></div>
+  <div class="box3"></div>
+  <div class="box4"></div>
+</body>
+</html>
